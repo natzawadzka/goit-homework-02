@@ -60,6 +60,7 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 h3 {
