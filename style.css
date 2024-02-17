@@ -11,11 +11,12 @@ body {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
 .logo-element {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 ul {
@@ -31,7 +32,15 @@ ul {
   text-decoration: none;
 }
 
-address a {
+.navigation link:hover {
+  color: #404bbf;
+}
+
+.navigation link:active {
+  color: #404bbf;
+}
+
+.address a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -40,7 +49,7 @@ address a {
   font-style: normal;
 }
 
-h1 {
+.main-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -53,7 +62,7 @@ h1 {
   background-color: #2e2f42;
 }
 
-.button-order-service {
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -63,7 +72,15 @@ h1 {
   cursor: pointer;
 }
 
-h3 {
+.button:hover {
+  color: #404bbf;
+}
+
+button:active {
+  color: #404bbf;
+}
+
+.third-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -71,14 +88,14 @@ h3 {
   color: #2e2f42;
 }
 
-.second-section-text p {
+.second-section-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h2 {
+.second-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -88,11 +105,7 @@ h2 {
   color: #2e2f42;
 }
 
-.third-section {
-  background-color: #f4f4fd;
-}
-
-.third-section-text h3 {
+.third-section h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -101,7 +114,11 @@ h2 {
   color: #2e2f42;
 }
 
-.third-section-text p {
+.third-section {
+  background-color: #ffffff;
+}
+
+.third-section-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -109,14 +126,14 @@ h2 {
   color: #434455;
 }
 
-.fourth-section-text p {
+.fourth-section-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
