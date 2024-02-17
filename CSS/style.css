@@ -32,21 +32,33 @@ ul {
   text-decoration: none;
 }
 
-.navigation link:hover {
+.link:hover {
   color: #404bbf;
 }
 
-.navigation link:active {
+.link:active {
   color: #404bbf;
 }
 
-.address a {
+.address {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
   font-style: normal;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #404bbf;
+}
+
+.contact-link:active {
+  color: #404bbf;
 }
 
 .main-header {
@@ -73,11 +85,11 @@ ul {
 }
 
 .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
-button:active {
-  color: #404bbf;
+.button:focus {
+  background-color: #404bbf;
 }
 
 .third-header {
@@ -114,8 +126,8 @@ button:active {
   color: #2e2f42;
 }
 
-.third-section {
-  background-color: #ffffff;
+.our-team {
+  background-color: #f4f4fd;
 }
 
 .third-section-text {
