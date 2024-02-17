@@ -32,7 +32,11 @@ ul {
   text-decoration: none;
 }
 
-.link:hover {
+.link {
+  color: #434455;
+}
+
+.link:hover .link:focus {
   color: #404bbf;
 }
 
@@ -51,9 +55,11 @@ ul {
 
 .contact-link {
   text-decoration: none;
+  color: #434455;
 }
 
-.contact-link:hover .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -84,7 +90,8 @@ ul {
   cursor: pointer;
 }
 
-.button:hover .button:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
