@@ -53,7 +53,7 @@ ul {
   text-decoration: none;
 }
 
-.contact-link:hover {
+.contact-link:hover .contact-link:focus {
   color: #404bbf;
 }
 
@@ -84,11 +84,7 @@ ul {
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #404bbf;
-}
-
-.button:focus {
+.button:hover .button:focus {
   background-color: #404bbf;
 }
 
@@ -124,6 +120,9 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+.third-section {
+  background-color: #ffffff;
 }
 
 .our-team {
